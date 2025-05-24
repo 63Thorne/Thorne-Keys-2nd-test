@@ -1,0 +1,33 @@
+
+h1 {color:rgb(50, 99, 1);
+font-weight: bold;}
+
+p {
+    color: black;
+    font-size: medium;
+
+
+}
+
+a{  padding: 15px;
+    display: flex;
+    display: grid;
+    height: 25px;
+    width: 190px;
+    background: rgb(9, 112, 40);
+    text-align: center;
+    margin: auto;
+    color: aliceblue;
+    border-radius: 5px;
+    text-decoration: none;
+    place-items: centre ;
+ }
+
+ h3{
+    place-items: centre;
+     display: flex;
+     text-align: center;
+     margin: auto;
+
+
+ }
