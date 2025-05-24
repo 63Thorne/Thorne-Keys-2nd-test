@@ -5,6 +5,13 @@ font-weight: bold;}
 p {
     color: black;
     font-size: medium;
+    display: flex;
+    display: grid;
+    text-align: center;
+    margin: auto;
+     place-items: centre ;
+
+
 
 
 }
@@ -24,10 +31,12 @@ a{  padding: 15px;
  }
 
  h3{
-    place-items: centre;
-     display: flex;
-     text-align: center;
-     margin: auto;
 
+    display: flex;
+    display: grid;
+    text-align: center;
+    margin: auto;
+     place-items: centre ;
+  
 
  }
