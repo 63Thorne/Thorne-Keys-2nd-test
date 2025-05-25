@@ -1,0 +1,43 @@
+
+h1 {color:rgb(50, 99, 1);
+font-weight: bold;}
+
+p {
+    color: black;
+    font-size: medium;
+    display: flex;
+    display: grid;
+    text-align: center;
+    margin: auto;
+     place-items: centre ;
+
+
+
+
+}
+
+a{  padding: 15px;
+    display: flex;
+    display: grid;
+    text-align: center;
+    margin: auto;
+    color: blue;
+    border-radius: 5px;
+    text-decoration: none;
+    place-items: centre ;
+ }
+
+ h3{
+
+    display: flex;
+    display: grid;
+    text-align: center;
+    margin: auto;
+     place-items: centre ;
+  
+
+ }
+
+ .Youtube Link{
+    background: none;
+ }
