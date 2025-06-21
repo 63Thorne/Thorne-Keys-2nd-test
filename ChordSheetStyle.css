@@ -68,16 +68,16 @@ a{  padding: 15px;
  }
 
  .Piano{
-   color: brown;
-   background-color: aqua;
+   
+   
    width: 10px;
    height: 2px;
      display: inline-block;
  }
 
  .Bass{
-    color: brown;
-   background-color: aqua;
+    
+   
    width: 10px;
    height: 2px;
      display: inline-block;
@@ -91,3 +91,5 @@ a{  padding: 15px;
    height: 2px;
      display: inline-block;
  }
+
+ 
