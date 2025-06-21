@@ -1,4 +1,7 @@
 
+
+
+
 h1 {color:rgb(50, 99, 1);
 font-weight: bold;}
 
@@ -7,8 +10,8 @@ p {
     font-size: medium;
     display: flex;
     display: grid;
-    text-align: center;
-    margin: auto;
+   
+    
      place-items: centre ;
 
 
@@ -43,4 +46,9 @@ a{  padding: 15px;
 
  .Youtube Link{
     background: none;
+ }
+
+ h6{
+
+   color: brown;
  }

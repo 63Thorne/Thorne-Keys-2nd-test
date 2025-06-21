@@ -1,12 +1,17 @@
+body{
+   background-color: whitesmoke;
+}
+
+
+
 
 h1 {color:rgb(50, 99, 1);
 font-weight: bold;}
 
+
 p {
-    color: black;
-    font-size: medium;
-    display: flex;
-    display: grid;
+    color: whitesmoke;
+    font-size: large;
     text-align: center;
     margin: auto;
      place-items: centre ;
@@ -40,4 +45,49 @@ a{  padding: 15px;
 
  .Youtube Link{
     background: none;
+ }
+
+ 
+ h4{
+
+  
+   width: 10px;
+   height: 2px;
+     display: inline-block;
+
+ }
+
+  
+ h6{
+
+   width: 10px;
+   height: 2px;
+
+     display: inline-block;
+
+ }
+
+ .Piano{
+   color: brown;
+   background-color: aqua;
+   width: 10px;
+   height: 2px;
+     display: inline-block;
+ }
+
+ .Bass{
+    color: brown;
+   background-color: aqua;
+   width: 10px;
+   height: 2px;
+     display: inline-block;
+
+ }
+
+ .Inversion{
+    color: brown;
+   background-color: aqua;
+   width: 10px;
+   height: 2px;
+     display: inline-block;
  }
