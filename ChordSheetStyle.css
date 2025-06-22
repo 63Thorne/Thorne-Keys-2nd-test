@@ -1,12 +1,43 @@
 body{
    background-color: whitesmoke;
+   padding-top: 100px;
+   
+}
+
+.TopScreenOverlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  left: 0px;
+   width: 100%;
+   height: 50px;
+   background-color: green;
+   border-color: black;
+  
+}
+
+.bottomLayer{
+   color: white;
+   background-color: green;
+
+
+}
+
+.PageHeading{
+   display: block;
+    position: relative;
+    margin-top: 100px;
+
 }
 
 
+h1 {
+  
 
+font-weight: bold;
 
-h1 {color:rgb(50, 99, 1);
-font-weight: bold;}
+}
 
 
 p {
@@ -105,11 +136,14 @@ a{  padding: 15px;
      display: inline-block;
      visibility: hidden;
      
+     
  }
 
  .BassButton{
    background-color: red;
    color: aliceblue;
+   position: fixed;
+   width: 100px;
 
 
  }
@@ -117,15 +151,43 @@ a{  padding: 15px;
   .InvButton{
    background-color: blue;
    color: aliceblue;
+   position: fixed;
+   width: 100px;   }
+
+.SignUpButton{
+   position: fixed;
+   width: 100px;
+   right: 0;
    
 
- }
+   }
+
 
  .ChordNotesButton{
      background-color:lime;
    color: black;
+   position: fixed;
+
 
  }
+
+ #ShowBass{
+   left :0;}
+
+
+#HideBass{
+    left :100px;
+
+ }
+#ShowInversion{
+   left :200px;
+
+
+}
+ #HideInversion{
+   left :300px;
+ }
+ 
 
 
 

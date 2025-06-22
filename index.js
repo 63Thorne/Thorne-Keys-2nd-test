@@ -1,5 +1,5 @@
 const myShowButton = document.getElementById("ShowInversion");
-const Inversion1 = document.querySelectorAll("#Inv");
+const Inversion1 = document.querySelectorAll(".Inversion");
 
 myShowButton.addEventListener('click', event => {
     
@@ -12,7 +12,7 @@ myShowButton.addEventListener('click', event => {
 
 
 const myHideButton = document.getElementById("HideInversion");
-const Inversion = document.querySelectorAll("#Inv");
+const Inversion = document.querySelectorAll(".Inversion");
 
 myHideButton.addEventListener('click', event => {
     
