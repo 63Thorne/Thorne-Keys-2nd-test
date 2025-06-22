@@ -3,28 +3,36 @@
     <h1> <title> Thorne Keys </title></head>
     
     <link rel="stylesheet" href="ChordSheetStyle.css">
+
 <body>
+
+
   <h1 style="text-align: center;">THORNE KEYS </h1>
-  <style> 
-    p {
-      color: black
-    }
-  </style>
 
 <hr>
-  <div>
-<label for="dark-mode-toggle"></label>
 
- <div class="background"></div>
+<div class="song">
+
+   <div>
+
+
   <h3> "You are good" by Israel Houghton</h3>
     <a class="Youtube Link" href="https://www.youtube.com/watch?v=V9MjczsrzUk" target="_blank">You are good </a>
 </div>
+<button class="InvButton" id="ShowInversion">Show Inv</button>
+<button class="InvButton" id="HideInversion">Hide Inv</button>
+<button class="BassButton" id="ShowBass">Show Bass</button>
+<button class="BassButton" id="HideBass">Hide Bass</button>
+<!-- <button class="ChordNotesButton" id="ChordNotes">Chord Notes</button> -->
+
+
+
   <pre>
     <p>   
-<h2 class="Piano">1</h4><h6 class="Inversion">(2)</h6> &nbsp; <h2  class="Piano">1</h4><h6 class="Inversion">(2)</h6>                       <h2 class="Piano">5</h2><h6 class="Inversion">(R)</h6> <h2 class="Piano">5</h2><h6 class="Inversion">(R)</h6>            <h2 class="Piano">7b</h2>  <h6 class="Inversion">(2)</h6> <h2 class="Piano">7b</h2>  <h6 class="Inversion">(2)</h6>    <h2 class="Piano">4</h2><h6 class="Inversion">(R)</h6> <h2 class="Piano">4</h2><h6 class="Inversion">(R)</h6>           
+<h2 class="Piano">1</h4><h6 class="Inversion" id="Inv">(2)</h6> &nbsp; <h2  class="Piano">1</h4><h6 class="Inversion"  id="Inv">(2)</h6>                       <h2 class="Piano">5</h2><h6 class="Inversion"  id="Inv">(R)</h6> <h2 class="Piano">5</h2><h6 class="Inversion"  id="Inv">(R)</h6>            <h2 class="Piano">7b</h2>  <h6 class="Inversion"  id="Inv">(2)</h6> <h2 class="Piano">7b</h2>  <h6 class="Inversion"  id="Inv">(2)</h6>    <h2 class="Piano">4</h2><h6 class="Inversion"  id="Inv" >(R)</h6> <h2 class="Piano">4</h2><h6 class="Inversion"  id="Inv" >(R)</h6>           
 <h4 class="Bass">1</h4>     <h4 class="Bass">1</h4>                        <h4 class="Bass">1</h4>  <h4 class="Bass">1</h4>              <h4 class="Bass">1</h4>     <h4 class="Bass">1</h4>       <h4 class="Bass">1</h4>   <h4 class="Bass">1</h4>  
 Lord,  you are good,&nbsp; And your  mercy endureth forever 
-<h2 class="Piano">1</h4><h6 class="Inversion">(2)</h6> &nbsp; <h2  class="Piano">1</h4><h6 class="Inversion">(2)</h6>                       <h2 class="Piano">5</h2><h6 class="Inversion">(R)</h6> <h2 class="Piano">5</h2><h6 class="Inversion">(R)</h6>            <h2 class="Piano">7b</h2>  <h6 class="Inversion">(2)</h6> <h2 class="Piano">7b</h2>  <h6 class="Inversion">(2)</h6>    <h2 class="Piano">4</h2><h6 class="Inversion">(R)</h6> <h2 class="Piano">4</h2><h6 class="Inversion">(R)</h6>           
+<h2 class="Piano">1</h4><h6 class="Inversion"  id="Inv">(2)</h6> &nbsp; <h2  class="Piano">1</h4><h6 class="Inversion"  id="Inv">(2)</h6>                       <h2 class="Piano">5</h2><h6 class="Inversion"  id="Inv">(R)</h6> <h2 class="Piano">5</h2><h6 class="Inversion"  id="Inv">(R)</h6>            <h2 class="Piano">7b</h2>  <h6 class="Inversion"  id="Inv">(2)</h6> <h2 class="Piano">7b</h2>  <h6 class="Inversion"  id="Inv">(2)</h6>    <h2 class="Piano">4</h2><h6 class="Inversion"  id="Inv">(R)</h6> <h2 class="Piano">4</h2><h6 class="Inversion"  id="Inv">(R)</h6>           
 <h4 class="Bass">1</h4>     <h4 class="Bass">1</h4>                        <h4 class="Bass">1</h4>  <h4 class="Bass">1</h4>              <h4 class="Bass">1</h4>     <h4 class="Bass">1</h4>       <h4 class="Bass">1</h4>   <h4 class="Bass">1</h4>  
 Lord,  you are good,&nbsp; And your  mercy endureth forever   
 <h2 class="Piano">4</h2><h6 class="Inversion">(1)</h6> &nbsp;              <h2 class="Piano">5</h2><h6 class="Inversion" >(1)</h6>               <h2 class="Piano">6b</h2>  <h6 class="Inversion">(1)</h6>               <h2 class="Piano">4</h2><h6 class="Inversion">(R)</h6>         
@@ -39,6 +47,10 @@ We worship you for who you are
     </p>
   </pre>
   
+
+
+</div>
+ 
 
 <div>
   <h3> Trading My Sorrows </h3>
@@ -75,6 +87,9 @@ Yes Lord, yes Lord, yes, yes Lord  Amen
                  
     </pre>
 </div>
+
+     <script src="index.js"></script>
+
 
 </body>
     
