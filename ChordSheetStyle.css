@@ -18,6 +18,8 @@ body{
 }
 
 .bottomLayer{
+   display: fixed;
+   padding-top: 80px;
    color: white;
    background-color: green;
 
@@ -144,6 +146,8 @@ a{  padding: 15px;
    color: aliceblue;
    position: fixed;
    width: 100px;
+   height: 80px;
+
 
 
  }
@@ -152,11 +156,14 @@ a{  padding: 15px;
    background-color: blue;
    color: aliceblue;
    position: fixed;
-   width: 100px;   }
+   width: 100px;
+   height: 80px;
+   }
 
 .SignUpButton{
    position: fixed;
-   width: 100px;
+   width: 70px;
+   height: 80px;
    right: 0;
    
 
