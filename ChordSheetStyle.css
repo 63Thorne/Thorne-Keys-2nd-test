@@ -11,7 +11,7 @@ body{
   z-index: 999;
   left: 0px;
    width: 100%;
-   height: 50px;
+   
    background-color: green;
    border-color: black;
   
@@ -24,6 +24,14 @@ body{
    background-color: green;
 
 
+}
+
+.SideBar{
+  position:absolute;
+  display: inline-block;
+  width: 50px;
+  height: 100%;
+  background: green;
 }
 
 .PageHeading{
@@ -43,6 +51,7 @@ font-weight: bold;
 
 
 p {
+  
     
     text-align: center;
     margin: auto;
@@ -60,6 +69,8 @@ font-size: large;
 font: 200;
 font-weight: 500;
 }
+
+
 
 a{  padding: 15px;
     display: flex;
@@ -121,6 +132,60 @@ a{  padding: 15px;
      display: inline-block;
  }
 
+
+ .Piano:hover{
+  background: cyan ;
+
+ }
+
+ .P1-4-5Major{
+  position: relative;
+  top: 75px;
+display: inline-block;
+  color: snow;
+  background: green;
+  width: 65px;
+  opacity: 0;
+  transition: 0.6s;
+
+ }
+
+ .P1-4-5Major:hover{
+    opacity: 1;
+ }
+
+  .P2-3-6Minor{
+  position: relative;
+display: inline-block;
+  color: snow;
+  background: green;
+  width: 65px;
+  /* opacity: 0; */
+ }
+
+   .P7Diminished{
+  position: relative;
+display: inline-block;
+  color: snow;
+  background: green;
+  width: 65px;
+  /* opacity: 0; */
+ }
+
+ .P7b-Major{
+    position: relative;
+  top: 75px;
+display: inline-block;
+  color: snow;
+  background: green;
+  width: 65px;
+  opacity: 0;
+  transition: 0.6s;
+ }
+
+ .P7b-Major:hover{
+  opacity: 1;
+ }
  .Bass{
     
    color: red;
@@ -194,6 +259,8 @@ a{  padding: 15px;
  #HideInversion{
    left :300px;
  }
+
+
  
 
 
