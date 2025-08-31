@@ -186,6 +186,24 @@ display: inline-block;
  .P7b-Major:hover{
   opacity: 1;
  }
+
+ .SingleNote{
+  position: relative;
+  top: 75px;
+display: inline-block;
+  color: snow;
+  background: green;
+  width: 150px;
+  opacity: 0;
+  transition: 0.6s;
+
+
+ }
+
+ .SingleNote:hover{
+  opacity: 1;
+ }
+
  .Bass{
     
    color: red;
