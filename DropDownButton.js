@@ -23,3 +23,16 @@ DropDownButton2.addEventListener("click", (event) => {
         Lyrics2.style.display ="none";
     }
 });
+
+const DropDownButton3 = document.getElementById("DropDownButton3");
+const Lyrics3 = document.getElementById("Lyrics3");
+
+Lyrics3.style.display ="none";
+
+DropDownButton3.addEventListener("click", (event) => {
+    if(Lyrics3.style.display == "none"){
+        Lyrics3.style.display ="block";
+    } else {
+        Lyrics3.style.display ="none";
+    }
+});
